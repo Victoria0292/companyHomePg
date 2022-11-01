@@ -1,15 +1,23 @@
 body {
     margin: 0;
     font-family: "Patrick Hand", sans-serif;
-    color: black;
-    background-color: white;
+    background-color: black;
     font-size: 22px;
     text-align: center;
+    color: white;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    
+}
+
+.header h1 {
+    background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
 }
 
 .navBar {
@@ -17,3 +25,17 @@ body {
     justify-content: space-around;
     margin: 0 10%;
 }
+
+.company {
+    display: flex;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fcabcd83-e213-46ae-a932-49a7f8ecdf7c/deporz7-11d17976-7f29-4185-9285-58b58899a15e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZjYWJjZDgzLWUyMTMtNDZhZS1hOTMyLTQ5YTdmOGVjZGY3Y1wvZGVwb3J6Ny0xMWQxNzk3Ni03ZjI5LTQxODUtOTI4NS01OGI1ODg5OWExNWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VSNEy_LRdcR_B77Sqb5KeJfaRG3NrlrlT4WPTh2OvLc");
+    height: 250px;
+}
+
+.compContent {
+    margin: auto;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+}
+
