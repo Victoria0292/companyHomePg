@@ -24,6 +24,14 @@ body {
   margin: 0 10%;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: orangered;
+}
+
 .company {
   background-image: url("https://www.elcbrands.com/media/looneytunes1.jpg");
   height: 350px;
